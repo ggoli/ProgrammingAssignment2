@@ -1,18 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## During first run functions calculate inverse matrix, and store it in the cache. With next run functions check if inverse matrix is stored in cache. If it is, then previously caluclated inverse mattrix is get  from cache. 
+## 
 
 ## Write a short comment describing this function
 
-makeCacheMatrix <- function(x = matrix()) {
-
-}
-
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-}
 
 makeCacheMatrix <- function(x = numeric()) {
   i <- NULL
